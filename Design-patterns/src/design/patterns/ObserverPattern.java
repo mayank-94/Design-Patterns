@@ -15,6 +15,9 @@ package design.patterns;
  *  So whenever there is an update in the behavior or state, all the subscribers will be notified.
  */
 
+interface Subject{
+	
+}
 
 public class ObserverPattern {
 
