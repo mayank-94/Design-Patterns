@@ -10,7 +10,9 @@ package design.patterns;
  * compatible with each other. 
  * 
  * Use adapter pattern when you want to use some existing class but it's interface isn't compatible
- * with the rest of your code, Adapter pattern will let you create a middle layer class. 
+ * with the rest of your code, Adapter pattern will let you create a middle layer class.
+ * 
+ * Note - We are not supposed to add any new functionality inside the Adapter. 
  */
 interface DistanceInKm{
 	double distanceInKm();
