@@ -21,10 +21,12 @@ import java.util.Arrays;
 
 import java.util.List;
 
+//Algorithm
 interface SortingStrategy{
 	void sort(List<?> elements);
 }
 
+//One implementation of our algorithm
 class MergeSort implements SortingStrategy{
 	
 	@Override
@@ -33,6 +35,7 @@ class MergeSort implements SortingStrategy{
 	}
 }
 
+//Another implementation of our algorithm
 class QuickSort implements SortingStrategy{
 
 	@Override
@@ -41,6 +44,7 @@ class QuickSort implements SortingStrategy{
 	}
 }
 
+//Here we will pass our algorithm at runtime
 class Sorting{
 	private List<?> elements;
 	
