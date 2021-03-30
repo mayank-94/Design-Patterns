@@ -9,3 +9,4 @@ This project is all about various design patterns that are used in software deve
 5) Strategy Pattern - Behavioral
 6) Observer Pattern - Behavioral
 7) Adapter Pattern - Structural
+8) Decorator Pattern - Structural
